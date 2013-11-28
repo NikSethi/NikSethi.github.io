@@ -1,2 +1,4 @@
-haxpotato.github.io
-===================
+personal_website
+================
+Starter site.
+Gurrito.
