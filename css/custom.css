@@ -12,14 +12,16 @@ h2{
 	color: #831618	;
 	font-size:28pt;
 }
-
-h6{
-	font-family: 'Montserrat', sans-serif;
-	font-size:8pt;
-}
 h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#8C1717;
+}
+h4{
+	font-family: 'Montserrat', sans-serif;
+}
+h6{
+	font-family: 'Montserrat', sans-serif;
+	font-size:8pt;
 }
 small{
 	font-family: 'Montserrat', sans-serif;
