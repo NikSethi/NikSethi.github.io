@@ -10,12 +10,17 @@
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Lobster|Philosopher:400,400italic' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script language="javascript">
-        function MouseRollover(MyImage) {
-        MyImage.src = "lamp-pixel.jpg";
-    }
-        function MouseOut(MyImage) {
-        MyImage.src = "lamp.jpg";
-    }
+       $(function() {
+    $("img")
+        .mouseover(function() { 
+            var src = $(this).attr("src").match(/[^\.]+/) + "-pixel.jpg";
+            $(this).attr("src", src);
+        })
+        .mouseout(function() {
+            var src = $(this).attr("src").replace("-pixel.jpg", ".jpg");
+            $(this).attr("src", src);
+        });
+});
 </script>
 </head>
 
@@ -35,7 +40,7 @@
 				 	<div class="col-md-3"></div>
 
 				 	<div class="col-md-6">
-						<img src ="lamp.JPG" class="background-image" alt="Lamp" width="75%" height "75%" onMouseOver="MouseRollover(this)" onMouseOut="MouseOut(this)">
+						<img src ="lamp.JPG" class="background-image" alt="Lamp" width="75%" height "75%">
 						<blockquote>
 						<h2>&quot;Tell me and I forget, teach me and I may remember, involve me and I learn.&quot; </h2>
 						<small>Benjamin Franklin</small>
