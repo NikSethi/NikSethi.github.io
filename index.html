@@ -9,7 +9,14 @@
 	<link rel="stylesheet" type ="text/css" href="css/bootstrap-theme.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Lobster|Philosopher:400,400italic' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-
+	<script language="javascript">
+        function MouseRollover(MyImage) {
+        MyImage.src = "lamp-pixel.jpg";
+    }
+        function MouseOut(MyImage) {
+        MyImage.src = "lamp.jpg";
+    }
+</script>
 </head>
 
 <body>
@@ -26,9 +33,9 @@
 				 <hr>
 				 <div class=row>
 				 	<div class="col-md-3"></div>
-				 	
+
 				 	<div class="col-md-6">
-						<img src ="lamp.JPG" class="background-image" alt="Lamp" width="75%" height "75%">
+						<img src ="lamp.JPG" class="background-image" alt="Lamp" width="75%" height "75%" onMouseOver="MouseRollover(this)" onMouseOut="MouseOut(this)">
 						<blockquote>
 						<h2>&quot;Tell me and I forget, teach me and I may remember, involve me and I learn.&quot; </h2>
 						<small>Benjamin Franklin</small>
