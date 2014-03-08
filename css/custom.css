@@ -58,7 +58,7 @@ html {
 	clear:both;
 	float:center;
 	background-color: rgba(0,0,0, .3);
-	height:600px;
+	height:100%;
 	width:500px;
 	margin: 0px 100px 0px 0px;
 	padding: 0px 10px 0px 20px;
