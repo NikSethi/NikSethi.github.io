@@ -1,4 +1,3 @@
 personal_website
 ================
-Starter site.
-Gurrito.
+This is the second iteration of my site.
