@@ -1,64 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nikhil's Homepage</title>
+	<title>Nikhil Sethi</title>
 	<link rel="icon" type="image/ico" href="NSFavicon.ico"/>
-	<link rel="stylesheet" type ="text/css" href="css/style.css"/>
-	<link rel="stylesheet" type ="text/css" href="css/bootstrap.css"/>
-	<link rel="stylesheet" type ="text/css" href="css/custom.css"/>
-	<link rel="stylesheet" type ="text/css" href="css/bootstrap-theme.css"/>
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Lobster|Philosopher:400,400italic' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-	<script language="javascript">
-       $(function() {
-    $("img")
-        .mouseover(function() { 
-            var src = $(this).attr("src").match(/[^\.]+/) + "-pixel.jpg";
-            $(this).attr("src", src);
-        })
-        .mouseout(function() {
-            var src = $(this).attr("src").replace("-pixel.jpg", ".JPG");
-            $(this).attr("src", src);
-        });
+	<link rel="stylesheet" type ="text/css" href="css\custom.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Josefin+Sans:400,700,700italic' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+
+	<script>
+	$(function(){
+ 
+
+    $('#bouncing').mouseenter(function () {
+          $(this).effect("bounce", { times:1 }, 300);
+    });
 });
-</script>
+    </script>
+    <script>
+	$(function(){
+    $('#bouncing1').mouseenter(function () {
+          $(this).effect("bounce", { times:1 }, 300);
+    });
+});
+    </script>
+    <script>
+	$(function(){
+    $('#bouncing2').mouseenter(function () {
+          $(this).effect("bounce", { times:1 }, 300);
+    });
+});
+    </script>
+    <script>
+	$(function(){
+    $('#bouncing3').mouseenter(function () {
+          $(this).effect("bounce", { times:1 }, 300);
+    });
+});
+    </script>
+    <script>
+	$(function(){
+    $('#bouncing4').mouseenter(function () {
+          $(this).effect("bounce", { times:1 }, 300);
+    });
+});
+    </script>
+    <script>
+	$(function(){
+    $('#bouncing5').mouseenter(function () {
+          $(this).effect("bounce", { times:1 }, 300);
+    });
+});
+    </script>
+    <script>
+	$(function(){
+    $('#bouncing6').mouseenter(function () {
+          $(this).effect("bounce", { times:1 }, 300);
+    });
+});
+    </script>
 </head>
 
 <body>
-	<div class="text-center">
 		
-			<h1> Nikhil Sethi</h1>
-				<hr>
-					<ul class="navbar1">
+			<!--<div id="header" style="text-align:right">
+
+				</div>
+			
+					<div id="nav">
+					<u1 class="navbar1">
 						<li><a href="index.html">Home</a></li>	
 						<li><a href="contactme.html">Contact Me</a></li>
 						<li><a href="aboutme.html"> About Me </a></li>
 						<li><a href="resume.html"> R&#233;sum&#233; </a></li>
-						
 					</ul>
-				 <hr>
-				 <div class=row>
-				 	<div class="col-md-3"></div>
+					</div>--> 
 
-				 	<div class="col-md-6">
-						<img src ="lamp.JPG" class="background-image" alt="Lamp" width="75%" height "75%">
-						<blockquote>
-						<h2>&quot;Tell me and I forget, teach me and I may remember, involve me and I learn.&quot; </h2>
-						<small>Benjamin Franklin</small>
-					</blockquote>
-					<p> Welcome to my <strong> FIRST </strong> website that I am using to learn some html/css. If you have any suggestions on how I can make it better, please contact me!</p>
+					<div class="body">
+					<h1>Nikhil Sethi</h1>
+					<div id="bouncing"><a href="mailto:nikhilsethi108@gmail.com"><img src="icons/email.png"></a></div>
+					<div id="bouncing1"><a href="https://github.com/NikSethi"><img src="icons/github.png"></a></div>
+					<div id="bouncing2"><a href="http://www.last.fm/user/bluemonkey108"><img src="icons/lastfm.png"></a></div>
+					<div id="bouncing3"><a href="https://soundcloud.com/nikhil-sethi-2"><img src="icons/soundcloud.png"></a></div>
+					<div id="bouncing4"><a href="http://open.spotify.com/user/1240925545"><img src="icons/spotify.png"></a></div>
+					<div id="bouncing5"><a href="http://twitter.com/nikhilrsethi"><img src="icons/twitter.png"></a></div>
+					<div id="bouncing6"><a href="http://nikhilrsethi.wordpress.com/"><img src="icons/wordpress.png"></a></div>
+					<p><b> Hey there! I'm Nikhil Sethi and a junior at Alpharetta High School. I'm interested in computer science, technology, photography and almost every genre of music. I aspire to become a  software engineer. Feel free to reach me through any of the social media sites above.</b>
+					</p>
+
+					<!--<p>
+					<em>The background picture was taken at a park near my neighborhood and evokes nostalgia within me.</em>
+					</p>-->
+			
+
 					</div>
-					<div class="col-md-3"></div>
-				</div>
-				
-		<div class="row" id="my_row">
-			<div class="col-md-3"></div>
-			<div class="col-md-6">
-				<h6> Built on Twitter Bootstrap and using Google Fonts</h6>
-				<h6> Code by Nikhil Sethi &#169; 2013. Thanks to <a href="http://neilsethi.me">Neil Sethi </a> for inspiration.</h6>
-			</div>
-			<div class="col-md-3"></div>
-		</div>
-	</div>
+
+		
+			
 </body>
 </html>

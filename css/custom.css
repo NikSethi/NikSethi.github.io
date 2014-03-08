@@ -1,63 +1,96 @@
 h1{
-	color: #8D3A61;
-	font-family: 'Lobster', cursive;
-	font-size:60pt;
-}
-p{
-	font-family: 'Montserrat', sans-serif;
+	color: #fefafd;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:36pt;
+	text-align: right;
 
 }
-h2{
-	font-family: 'Philosopher', sans-serif;
-	color: #831618	;
-	font-size:28pt;
-}
-h3{
-	font-family: 'Montserrat', sans-serif;
-	color:#8C1717;
-}
-h4{
-	font-family: 'Montserrat', sans-serif;
-}
-h6{
-	font-family: 'Montserrat', sans-serif;
-	font-size:8pt;
-}
-small{
-	font-family: 'Montserrat', sans-serif;
-}
-a{
-    color: #3E4957;
-}
-#my_row{
-	margin-top: 2cm;
-}
 
-.navbar1{
-	font-family: 'Montserrat', sans-serif;
-	 display:inline;
-	list-style-type: none;
-	padding-right: 20px;
+.navbar1 ul{
+	
+	display:inline;
+	padding: 100px 0px 0px 0px;
+	margin: 0px 0px 0px 50px;
 }
 
 .navbar1 li{
 	 margin-left: 0;
-	padding: 3px 15px;
+	padding: 0px 15px;
 	list-style: none;
 	line-height: 15px;
 	display: inline;
 }
-#image{
-	position: relative;
-	width: 100%;
+
+a{
+	color:white;
+	text-decoration:none;
+	font-family: 'Merriweather', serif;
 }
-#blockquote{
-	position: absolute;
-	top: 20px;
-	left: 350px;
-	width: 25%;
-	color:black;
+
+#nav{
+	clear:both;
+	float:right;
+	margin: 60px 90px 0px 0px;
 }
-#quote{
-	color:#FFFFF;
+
+#header{
+	margin: 0px 100px 0px 0px;
+	height: 30px;
+	width: 500px;
+	padding: 0px 0px 0px 0px;
+	float:right;
+
+	}
+
+#header,#nav{
+	clear:both;
+}
+
+html { 
+  background: url('backgg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.body{
+	clear:both;
+	float:center;
+	background-color: rgba(0,0,0, .3);
+	height:1000px;
+	width:500px;
+	margin: 0px 100px 0px 0px;
+	padding: 0px 10px 0px 20px;
+	float:right;
+}
+
+img{
+	margin: 0px 5px 0px 5px;
+}
+
+p{
+	color:#fff;
+	font-family: 'Josefin Sans', sans-serif;
+
+	font-size: 16pt;
+	opacity: 1.0;
+    margin-top: 10px	;
+}
+
+#bouncing{
+	display: inline;
+
+
+}
+.ui-effects-wrapper {
+ display: inline-block;   
+}
+
+#bouncing1, #bouncing2, #bouncing3, #bouncing4, #bouncing5, #bouncing6{
+	display: inline;
+}
+
+#space{
+	height: 20px;
 }
