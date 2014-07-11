@@ -21,7 +21,10 @@ h1{
 	display: inline;
 }
 
+a{
+	color:white;
 
+}
 
 #nav{
 	clear:both;
