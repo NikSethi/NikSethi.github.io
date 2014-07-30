@@ -23,7 +23,7 @@ html {
 	display: inline
 }
 .body{
-	width:500px;
+	width:400px;
 	float: left;
 	text-align: left;
   	margin: 15% 1% 0px 6%	;
@@ -31,7 +31,7 @@ html {
 }
 
 img{
-	margin: 0px 5px 0px 5px;
+	margin: 0px 5px 0px 0px;
 }
 
 .gravatar{
