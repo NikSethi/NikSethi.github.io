@@ -1,91 +1,60 @@
 h1{
-	color: #fefafd;
-	font-family: 'Alegreya Sans SC', sans-serif;
+	/*color: #fefafd;*/
+	font-family: 'Lato', sans-serif;
 	font-size:36pt;
 	text-align: right;
-
+	font-weight: bold;
 }
 
-.navbar1 ul{
-	
-	display:inline;
-	padding: 100px 0px 0px 0px;
-	margin: 0px 0px 0px 50px;
-}
-
-.navbar1 li{
-	 margin-left: 0;
-	padding: 0px 15px;
-	list-style: none;
-	line-height: 15px;
-	display: inline;
-}
-
-a{
-	color:white;
-
-}
-
-#nav{
-	clear:both;
-	float:right;
-	margin: 60px 90px 0px 0px;
-}
-
-#header{
-	margin: 0px 100px 0px 0px;
-	height: 30px;
-	width: 500px;
-	padding: 0px 0px 0px 0px;
-	float:right;
-
-	}
-
-#header,#nav{
-	clear:both;
-}
 
 html { 
-  background: url('backgg.jpg') no-repeat center center fixed; 
+/*  background: url('backgg.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 
+.header{
+	display:inline;
+	float: left;
+  	text-align: right;
+	margin: 150px 10px 0px 200px;
+	display: inline
+}
 .body{
-	clear:both;
-	background-color: rgba(0,0,0, .3);
-	/*height:600px; */
 	width:500px;
-	margin: 0px 100px 0px 0px;
-	padding: 0px 10px 0px 20px;
-	float:right;
+	float: left;
+	text-align: left;
+  	margin: 200px 10px 0px 100px	;
+  	display: inline
 }
 
 img{
 	margin: 0px 5px 0px 5px;
 }
 
+.gravatar{
+
+	
+	margin-right:38%;
+}
+
 p{
-	color:#fff;
-	font-family: 'Josefin Sans', sans-serif;
+	
+	font-family: 'Lato', sans-serif;
 
 	font-size: 16pt;
 	opacity: 1.0;
     margin-top: 10px	;
 }
 
-#bouncing{
-	display: inline;
 
-
-}
 .ui-effects-wrapper {
  display: inline-block;   
 }
 
-#bouncing1, #bouncing2, #bouncing3, #bouncing4, #bouncing5, #bouncing6{
+#bouncing, #bouncing1, #bouncing2, #bouncing3, #bouncing4, #bouncing5, #bouncing6{
 	display: inline;
 }
 
