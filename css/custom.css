@@ -63,9 +63,9 @@ p{
 }
 
 .circular {
-	width: 300px;
-	height: 300px;
-	border-radius: 150px;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(http://i.imgur.com/izJf19k.jpg) no-repeat;
