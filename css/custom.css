@@ -37,10 +37,10 @@ img{
 p{
 	
 	font-family: 'Lato', sans-serif;
-
+	line-height: 24px;
 	font-size: 16pt;
 	opacity: 1.0;
-    margin-top: 10px	;
+    	margin-top: 10px;
 }
 
 
