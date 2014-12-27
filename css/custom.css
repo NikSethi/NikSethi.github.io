@@ -34,12 +34,6 @@ img{
 	margin: 0px 5px 0px 0px;
 }
 
-.gravatar{
-
-	
-	margin-right:38%;
-}
-
 p{
 	
 	font-family: 'Lato', sans-serif;
@@ -63,11 +57,11 @@ p{
 }
 
 .circular {
-	width: 150px;
-	height: 150px;
-	border-radius: 75px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
 	background: url(http://i.imgur.com/izJf19k.jpg) no-repeat;
 	background-position: center; 
 	background-size: 50%;
