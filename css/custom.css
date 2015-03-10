@@ -6,15 +6,6 @@ h1{
 	font-weight: bold;
 }
 
-
-html { 
-/*  background: url('backgg.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
-}
-
 .header{
 	display:inline;
 	float: left;
@@ -22,6 +13,7 @@ html {
 	margin: 11% 1% 0px 15%;
 	display: inline
 }
+
 .body{
 	width:500px;
 	float: left;
@@ -62,7 +54,7 @@ p{
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(http://i.imgur.com/izJf19k.jpg) no-repeat;
+	background: url(face.jpg) no-repeat;
 	background-position: center; 
 	background-size: 100%;
 	margin: 0 auto;
