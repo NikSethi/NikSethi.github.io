@@ -1,0 +1,50 @@
+h1{
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.sixcolumns{
+	border-style: solid;
+}
+
+.columns{
+	text-align:center;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+	text-align: right;
+
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+.buzz:hover{
+	color:#EEB211;
+}
+
+.work:hover{
+	color:#007bb6;
+}
+
+.git:hover{
+	color:#ff9933;
+}
+
+.music:hover{
+	color:#d51007;
+}
+
+.photo:hover{
+	color:#3f729b;
+}
+
+.writing:hover{
+	color:#55AB6A;
+}
+.email:hover{
+	color:#7b8994;
+}
