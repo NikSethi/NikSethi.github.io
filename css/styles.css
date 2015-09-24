@@ -12,3 +12,20 @@ li{
     display:inline;
     padding-right: 1%;
 }
+
+h1{
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    font-family: 'Lato', sans-serif;
+}
