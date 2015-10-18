@@ -1,31 +1,33 @@
-#text{
-    margin: 0 30% 0 30%;
-}
-
-#nav{
-    list-style-type: none;
+h1 {
+    font-family: 'Helvetica';
+    font-weight: bold !important;
     margin: 0;
-    padding: 0;
+    line-height: 60px;
 }
 
-li{
-    display:inline;
-    padding-right: 1%;
+h2 {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    margin: 0;
+    line-height: 55px;
 }
 
-h1{
-    font-family: 'Philosopher', sans-serif;
-    font-weight: bolder;
+a {
+    color: inherit;
 }
 
-p{
-    font-family: 'Lato', sans-serif;
+.group1{
+    color: #424447;
 }
 
-body{
-    font-family: 'Lato', sans-serif;
+.group2{
+    color: #5C5C5C;
 }
 
-a{
-    font-family: 'Lato', sans-serif;
+.group3{
+    color: #808080;
+}
+
+.group4{
+    color: #B2B2B2
 }

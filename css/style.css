@@ -1,7 +1,9 @@
 h1{
-	font-family: 'Muli', sans-serif;
-	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
 	text-align: right;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-size: 75%;
 }
 
 .sixcolumns{
@@ -18,8 +20,14 @@ p{
 
 }
 
-a{
-	text-decoration: none;
+img {
+	margin-bottom: 5px;
+	margin-top: 0px;
+	padding-top: 0px;
+	border-radius: 50%;
+}
+
+a {
 	color:#000;
 }
 
