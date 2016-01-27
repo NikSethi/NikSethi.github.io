@@ -1,19 +1,37 @@
 h1 {
-    font-family: 'Helvetica';
-    font-weight: bold !important;
+    font-family: 'Raleway', sans-serif;
+
+    margin: 0;
+    line-height: 50px;
+
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     line-height: 50px;
 }
 
-h2 {
-    font-family: 'Helvetica';
-    font-weight: 700;
-    margin: 0;
-    line-height: 50px;
+#background {
+
+    height:100%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+#center {
+    position: auto;
+    text-align:center;
+    margin-top:50%;
 }
 
 a {
     color: inherit;
+}
+
+h3 {
+    margin: 1%;
 }
 
 .group1{
@@ -30,4 +48,8 @@ a {
 
 .group4{
     color: #B2B2B2
+}
+
+body{
+
 }
