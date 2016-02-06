@@ -27,7 +27,7 @@ h2 {
 }
 
 a {
-    color: inherit;
+    color: #1abc9c;
 }
 
 h3 {
@@ -35,5 +35,5 @@ h3 {
 }
 
 a:hover {
-    color: #8e44ad;
+    text-decoration: underline;
 }
