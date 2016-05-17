@@ -1,3 +1,3 @@
-personal_website
-================
-This is the second iteration of my site.
+This is my personal website.
+
+There's not much to it.
