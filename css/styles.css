@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Mono', monospace;
 
     margin: 0;
     line-height: 50px;
@@ -7,9 +7,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Mono', monospace;
     margin: 0;
     line-height: 50px;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    line-height: 1.5em;
 }
 
 #background {
@@ -26,7 +31,8 @@ h2 {
 }
 
 a {
-    color: #1abc9c;
+    color: red;
+    text-decoration: none;
 }
 
 h3 {
