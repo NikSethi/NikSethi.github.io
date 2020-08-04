@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Vollkorn', serif;
 
     margin: 0;
     line-height: 50px;
@@ -7,13 +7,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Vollkorn', serif;
     margin: 0;
     line-height: 50px;
 }
 
 body {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Vollkorn', serif;
+    font-size: 1.7em;
     line-height: 1.5em;
 }
 
