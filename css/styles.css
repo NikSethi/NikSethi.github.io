@@ -1,7 +1,11 @@
+/* Typography */
+
+html {
+    font-size: 12px;
+}
+
 h1 {
     font-family: 'Vollkorn', serif;
-
-
     margin: 0;
     line-height: 50px;
 
@@ -20,19 +24,6 @@ body {
     line-height: 1.5em;
 }
 
-#background {
-
-    height:100%;
-    z-index: 0;
-    top: 0;
-    left: 0;
-}
-
-#center {
-    position: auto;
-    margin-top:50%;
-}
-
 a {
     color: red;
     text-decoration: none;
@@ -46,6 +37,27 @@ a:hover {
     text-decoration: underline;
 }
 
-container {
-    width: 80%;
+/* Layout */
+#container {
+   display: flex;
+   margin: auto;
+
+   margin: 4vh 2vw 0 2vw;
+   
+
 }
+@media only screen and (min-width: 768px) {
+    #container {
+        margin:auto;
+        margin-top: 20vh;
+        width: 40vw;
+    }
+}
+
+
+#center {
+    justify-content: center;
+    align-items: center;
+
+}
+
